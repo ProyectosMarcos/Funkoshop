@@ -1,6 +1,6 @@
-const add = document.querySelector("#add");
-const substract = document.querySelector("#substract");
-const quantity = document.querySelector("#quantity");
+const add = document.querySelector("#addOne");
+const substract = document.querySelector("#substractOne");
+const quantity = document.querySelector("#quantityOne");
 
 add.addEventListener('click', () => quantity.value = Number(quantity.value) + 1);
 
